@@ -169,6 +169,7 @@ def prepare_wheel(sources_path):
   copy_to_jaxlib("__main__/jaxlib/gpu_triton.py")
   copy_to_jaxlib("__main__/jaxlib/gpu_solver.py")
   copy_to_jaxlib("__main__/jaxlib/gpu_sparse.py")
+  copy_to_jaxlib("__main__/jaxlib/tpu_mosaic.py")
   copy_to_jaxlib("__main__/jaxlib/version.py")
   copy_to_jaxlib("__main__/jaxlib/xla_client.py")
   copy_to_jaxlib(f"__main__/jaxlib/xla_extension.{pyext}")
