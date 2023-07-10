@@ -148,6 +148,6 @@ td_library(
 py_library(
     name = "tpu_support",
     deps = [
-        # "//third_party/py/jax/jaxlib/tpu/python:tpu_dialect",
+        "//third_party/py/jax/jaxlib/tpu/python:tpu_dialect",
     ],
 )

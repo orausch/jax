@@ -18,7 +18,7 @@ from mlir import ir
 from mlir.dialects import func
 import numpy as np
 
-from jax.jaxlib.tpu.python import tpu
+from jaxlib.tpu.python import tpu
 
 
 def _round_up(x: int, to: int):

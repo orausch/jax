@@ -34,8 +34,8 @@ from mlir.dialects import scf
 from mlir.dialects import vector
 import numpy as np
 
-from jax.jaxlib.tpu.python import infer_memref_layout
-from jax.jaxlib.tpu.python import tpu
+from jaxlib.tpu.python import infer_memref_layout
+from jaxlib.tpu.python import tpu
 
 
 ValueLike = Union[ir.Value, ir.Operation, ir.OpView]
